@@ -13,6 +13,7 @@ import com.mertceyhan.bitcoinmarket.features.market.data.local.model.MarketPrice
     version = VERSION,
     exportSchema = false
 )
+
 @TypeConverters(MarketPriceValueTypeConverter::class)
 abstract class MarketDatabase : RoomDatabase() {
 

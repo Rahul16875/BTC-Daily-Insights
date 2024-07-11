@@ -84,6 +84,7 @@ dependencies {
     implementation(Dependencies.accompanistSwipeRefresh)
     implementation(Dependencies.roomKtx)
     implementation(Dependencies.glance)
+//    implementation ("com.google.dagger:hilt-android:2.49")
 
     kapt(Dependencies.daggerHiltCompiler)
     kapt(Dependencies.moshiCodegen)
