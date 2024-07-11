@@ -83,7 +83,6 @@ fun ErrorScreen(
             }
         }
     }
-
 }
 
 @Preview(showBackground = true)
