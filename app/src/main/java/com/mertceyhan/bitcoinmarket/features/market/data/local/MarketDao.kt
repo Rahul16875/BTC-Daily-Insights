@@ -9,6 +9,7 @@ import com.mertceyhan.bitcoinmarket.features.market.data.local.model.MarketPrice
 @Dao
 interface MarketDao {
 
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertMarketPriceChart(marketPriceChartEntity: MarketPriceChartEntity)
 

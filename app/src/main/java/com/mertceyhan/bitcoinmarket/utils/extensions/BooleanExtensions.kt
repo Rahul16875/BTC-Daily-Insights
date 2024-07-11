@@ -7,3 +7,4 @@ fun Boolean.doIfTrue(action: (() -> Unit)? = null) {
 }
 
 fun Boolean?.orFalse() = this ?: false
+

@@ -26,6 +26,7 @@ import com.mertceyhan.bitcoinmarket.features.error.ErrorScreenViewState
 import com.mertceyhan.bitcoinmarket.features.loading.LoadingScreen
 
 
+
 @Composable
 fun MarketScreen(marketViewModel: MarketViewModel = hiltViewModel()) {
 

@@ -18,6 +18,7 @@ fun LineChart.setLineDataSet(
         }
     }
 
+
     if (lineDataSet?.entryCount.orZero() > MIN_ENTRY_COUNT_FOR_ANIMATION) {
         animateX(if (animateXDuration > 0) animateXDuration else DEFAULT_ANIMATE_XY_DURATION)
     }

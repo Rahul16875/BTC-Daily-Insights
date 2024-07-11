@@ -4,6 +4,7 @@ import com.github.mikephil.charting.data.Entry
 
 object MarketInformationFactory {
 
+
     fun getMockMarketInformation() = MarketInformation(
         currentPrice = "",
         openPrice = "",

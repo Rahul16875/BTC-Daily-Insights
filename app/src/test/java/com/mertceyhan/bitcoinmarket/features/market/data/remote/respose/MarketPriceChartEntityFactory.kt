@@ -17,6 +17,7 @@ object MarketPriceChartEntityFactory {
         values = arrayListOf()
     )
 
+
     fun getMockExpiredMarketPriceChartEntity(
         timeSpan: String = "",
     ) = MarketPriceChartEntity(

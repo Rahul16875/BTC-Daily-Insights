@@ -36,6 +36,7 @@ class ErrorScreenViewState(private val throwable: Throwable) {
         else -> R.drawable.ic_error
     }
 
+    
     fun getErrorMessage(context: Context): String = when (throwable) {
         is HttpException -> throwable.message()
         is SocketTimeoutException -> context.getString(R.string.timeout_error_message)

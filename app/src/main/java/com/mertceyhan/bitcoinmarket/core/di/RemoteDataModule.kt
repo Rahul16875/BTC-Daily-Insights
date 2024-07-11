@@ -17,6 +17,7 @@ object RemoteDataModule {
 
     private const val BLOCKCHAIN_API_URL = "https://api.blockchain.info/"
 
+
     @Singleton
     @Provides
     fun provideRetrofit(

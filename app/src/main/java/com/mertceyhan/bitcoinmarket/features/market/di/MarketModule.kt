@@ -23,6 +23,7 @@ abstract class MarketModule {
         marketRepositoryImp: MarketRepositoryImp
     ): MarketRepository
 
+
     @Binds
     abstract fun provideMarketPriceUseCase(
         marketInformationUseCaseImpl: MarketInformationUseCaseImpl

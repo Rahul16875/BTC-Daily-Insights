@@ -8,3 +8,4 @@ object ClassPaths {
     const val daggerHiltGradlePlugin =
         "com.google.dagger:hilt-android-gradle-plugin:${Versions.daggerHiltVersion}"
 }
+

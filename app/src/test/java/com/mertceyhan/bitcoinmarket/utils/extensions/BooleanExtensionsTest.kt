@@ -5,6 +5,7 @@ import org.junit.Test
 
 class BooleanExtensionsTest {
 
+
     @Test
     fun `when boolean is true or false, then orFalse() returns itself`() {
         // given
