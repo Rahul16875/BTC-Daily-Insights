@@ -3,6 +3,7 @@ package com.mertceyhan.bitcoinmarket.widget.ui
 import com.mertceyhan.R
 
 
+
 class BitcoinWidgetUiState(
     val currentPrice: String,
     val changeRate: String,
