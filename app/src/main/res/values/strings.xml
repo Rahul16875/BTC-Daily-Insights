@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bitcoin Market</string>
+    <string name="app_name">BTC Daily Insights</string>
     <string name="bitcoin_btc">Bitcoin (BTC)</string>
     <string name="high">High</string>
     <string name="open">Open</string>
