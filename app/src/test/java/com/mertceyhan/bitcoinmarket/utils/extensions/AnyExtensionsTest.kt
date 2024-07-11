@@ -5,6 +5,7 @@ import org.junit.Test
 
 class AnyExtensionsTest {
 
+
     @Test
     fun `when any is null, then isNull() returns true`() {
         // given

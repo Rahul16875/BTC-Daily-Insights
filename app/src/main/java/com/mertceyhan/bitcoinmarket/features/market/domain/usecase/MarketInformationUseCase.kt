@@ -6,3 +6,4 @@ import com.mertceyhan.bitcoinmarket.features.market.domain.model.MarketInformati
 interface MarketInformationUseCase {
     suspend fun getMarketInformation(timespan: MarketInformationTimespan): MarketInformation
 }
+

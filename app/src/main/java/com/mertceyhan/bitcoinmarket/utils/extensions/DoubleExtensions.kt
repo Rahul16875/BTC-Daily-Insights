@@ -10,6 +10,7 @@ fun Double?.toCurrency(locale: Locale = Locale("en", "US")): String = NumberForm
     .format(this.orZero())
     .orEmpty()
 
+
 fun Double.changeRateOf(number: Double): Double =
     (((number.minus(this)).div(this)).times(100)).round(2)
 

@@ -6,6 +6,7 @@ import javax.inject.Inject
 
 class MarketPriceChartMapper @Inject constructor() {
 
+
     fun mapToEntity(
         timeSpan: String,
         lastFetchTime: Long,

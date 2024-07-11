@@ -16,6 +16,7 @@ import com.mertceyhan.R
 import com.mertceyhan.bitcoinmarket.features.MainActivity
 import com.mertceyhan.bitcoinmarket.widget.callback.MarketRefreshCallback
 
+
 @Composable
 fun BitcoinWidget(bitcoinWidgetUiState: BitcoinWidgetUiState) {
 

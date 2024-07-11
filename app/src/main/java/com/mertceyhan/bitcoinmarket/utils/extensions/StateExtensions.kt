@@ -14,6 +14,7 @@ fun <T, R> UiState<T>.map(transform: (T) -> R): UiState<R> {
     }
 }
 
+
 fun <T> Flow<UiState<T>>.doOnSuccess(action: suspend (T) -> Unit): Flow<UiState<T>> =
     transform { value ->
         if (value is UiState.Success) {

@@ -10,6 +10,7 @@ import com.mertceyhan.bitcoinmarket.utils.`should be`
 import org.junit.Before
 import org.junit.Test
 
+
 class MarketPriceChartMapperTest {
 
     lateinit var marketPriceChartMapper: MarketPriceChartMapper

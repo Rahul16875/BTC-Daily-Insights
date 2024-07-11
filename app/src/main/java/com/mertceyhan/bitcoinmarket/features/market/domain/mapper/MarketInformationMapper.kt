@@ -22,6 +22,7 @@ class MarketInformationMapper @Inject constructor() {
         val firstPrice = prices.firstOrNull().orZero()
         val lastPrice = prices.lastOrNull().orZero()
 
+
         return MarketInformation(
             currentPrice = lastPrice.toCurrency(),
             openPrice = firstPrice.toCurrency(),

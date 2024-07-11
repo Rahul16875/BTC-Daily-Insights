@@ -10,3 +10,4 @@ object Configs {
     const val versionName = "2.0.2"
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 }
+

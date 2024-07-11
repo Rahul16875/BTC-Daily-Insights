@@ -11,6 +11,7 @@ import com.mertceyhan.bitcoinmarket.features.market.domain.model.MarketInformati
 import com.mertceyhan.bitcoinmarket.utils.extensions.getCompatColor
 import com.mertceyhan.bitcoinmarket.utils.extensions.getCompatDrawable
 
+
 class MarketScreenViewState(
     val marketInformation: MarketInformation
 ) {

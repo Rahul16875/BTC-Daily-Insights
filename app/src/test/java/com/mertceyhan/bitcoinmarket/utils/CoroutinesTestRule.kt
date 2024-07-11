@@ -24,3 +24,4 @@ class CoroutinesTestRule(
         testDispatcher.cleanupTestCoroutines()
     }
 }
+

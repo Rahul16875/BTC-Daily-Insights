@@ -12,6 +12,7 @@ import com.mertceyhan.bitcoinmarket.features.market.navigation.marketScreenGraph
 import com.mertceyhan.bitcoinmarket.core.theme.BitcoinMarketTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

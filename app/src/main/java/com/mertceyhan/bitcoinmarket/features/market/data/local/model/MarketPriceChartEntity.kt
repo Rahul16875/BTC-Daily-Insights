@@ -6,6 +6,7 @@ import com.mertceyhan.bitcoinmarket.features.market.data.remote.respose.MarketPr
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
+
 @Entity
 @JsonClass(generateAdapter = true)
 data class MarketPriceChartEntity(

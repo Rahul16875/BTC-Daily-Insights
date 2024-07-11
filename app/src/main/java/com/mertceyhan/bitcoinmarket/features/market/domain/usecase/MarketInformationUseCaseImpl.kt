@@ -17,3 +17,4 @@ class MarketInformationUseCaseImpl @Inject constructor(
             timespan = timespan
         )
 }
+

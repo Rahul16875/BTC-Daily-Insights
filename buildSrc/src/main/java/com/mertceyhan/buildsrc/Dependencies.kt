@@ -57,3 +57,4 @@ object Dependencies {
     const val glance = "androidx.glance:glance-appwidget:${Versions.glance}"
 
 }
+

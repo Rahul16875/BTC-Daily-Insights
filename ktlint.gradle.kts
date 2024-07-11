@@ -1,5 +1,6 @@
 val ktlint by configurations.creating
 
+
 dependencies {
     ktlint(Dependencies.ktlint)
 }

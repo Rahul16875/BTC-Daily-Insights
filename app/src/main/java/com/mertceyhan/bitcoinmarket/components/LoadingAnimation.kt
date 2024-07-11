@@ -1,3 +1,4 @@
+
 package com.mertceyhan.bitcoinmarket.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES

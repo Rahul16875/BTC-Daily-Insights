@@ -5,6 +5,7 @@ import org.junit.Test
 
 class IntExtensionsTest {
 
+
     @Test
     fun `when int is not null, then orZero() returns itself`() {
         // given

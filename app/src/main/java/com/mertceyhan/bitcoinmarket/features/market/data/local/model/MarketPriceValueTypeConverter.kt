@@ -15,6 +15,7 @@ class MarketPriceValueTypeConverter {
     )
     private val adapter: JsonAdapter<List<MarketPriceValueResponse>> = moshi.adapter(type)
 
+
     @TypeConverter
     fun fromString(data: String): List<MarketPriceValueResponse>? = adapter.fromJson(data)
 

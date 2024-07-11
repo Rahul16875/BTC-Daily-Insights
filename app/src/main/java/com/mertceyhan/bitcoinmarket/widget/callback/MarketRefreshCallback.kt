@@ -16,6 +16,7 @@ class MarketRefreshCallback : ActionCallback {
         context.sendBroadcast(intent)
     }
 
+
     companion object {
         const val UPDATE_ACTION = "updateAction"
     }

@@ -12,3 +12,4 @@ fun Context.getCompatDrawable(@DrawableRes id: Int) = ContextCompat.getDrawable(
 
 fun Context.isSystemInDarkTheme(): Boolean =
     (resources.configuration.uiMode.and(Configuration.UI_MODE_NIGHT_MASK)) == Configuration.UI_MODE_NIGHT_YES
+

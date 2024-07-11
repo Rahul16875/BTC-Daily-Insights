@@ -23,6 +23,7 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class MarketWidgetReceiver : GlanceAppWidgetReceiver() {
 
+
     override val glanceAppWidget: GlanceAppWidget = MarketWidget()
 
     private val coroutineScope = MainScope()

@@ -8,3 +8,4 @@ sealed class UiState<out T> {
 
     object Loading : UiState<Nothing>()
 }
+

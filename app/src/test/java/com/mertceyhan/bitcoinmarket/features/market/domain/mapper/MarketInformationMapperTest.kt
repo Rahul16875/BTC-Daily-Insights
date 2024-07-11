@@ -14,6 +14,7 @@ class MarketInformationMapperTest {
 
     lateinit var marketInformationMapper: MarketInformationMapper
 
+
     @Before
     fun setUp() {
         marketInformationMapper = MarketInformationMapper()
